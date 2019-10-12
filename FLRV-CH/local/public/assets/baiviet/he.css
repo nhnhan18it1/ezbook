@@ -1,0 +1,111 @@
+body{
+
+}
+#mn{
+border-bottom: 1px solid black;
+box-shadow: 0px 0px 10px black;
+padding-left: 250px;
+}
+.back-to-top{
+    width: 50px;
+   height: 50px;
+   background: rgb(0,0,0,0.7);
+   font-size: 35px;
+   color: whitesmoke;
+   text-align: center;
+   vertical-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: fixed;
+   left: 50%;
+   bottom: 20px;
+   margin-left: -250px;
+   cursor: pointer;
+   visibility: hidden;
+   opacity: 0;
+}
+.back-to-top.hien-ra{
+    visibility: visible;
+    opacity: 1;
+ }
+.card-body img{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+
+}
+.card-body p{
+    margin-left: 15px;
+}
+.card-body h4{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.card{
+    margin-top: 25px;
+}
+/* Chat containers */
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+  /* Darker chat container */
+  .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+  }
+
+  /* Clear floats */
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* Style images */
+  .container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+
+  /* Style the right image */
+  .container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+
+  /* Style time text */
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+
+  /* Style time text */
+  .time-left {
+    float: left;
+    color: #999;
+  }
+  .an{
+      display: none;
+  }
+  .hien{
+      display: block;
+  }
+  .badge {
+    position: absolute;
+    top: -17px;
+    right: 50px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+  }
